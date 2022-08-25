@@ -1,1 +1,1 @@
-web:gunicorn Codeathon_5Wizards.wsgi --log-file -
+web: gunicorn Codeathon_5Wizards.wsgi 
