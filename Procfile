@@ -1,1 +1,1 @@
-web:gunicorn student_management_system.wsgi --log-file -
+web:gunicorn Codeathon_5Wizards.wsgi --log-file -
