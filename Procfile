@@ -1,1 +1,1 @@
-web: gunicorn Codeathon_5Wizards.wsgi 
+web: gunicorn Codeathon_5Wizards.wsgi --timeout 15 --keep-alive 5 --log-level debug
